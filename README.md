@@ -31,8 +31,8 @@ I analysed 2 primary datasets:
 * beautifulsoup4 Version 4.11.1
 * urllib3 Version 1.26.11
 
-### How to use the Code
-* Web Scraping - Use BeautifulSoup to scrape the data from the Wikipedia page ['List of Spotify streaming records'] (https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records). Script for scraping provided in Code section below.
+## How to use the Code
+* Web Scraping - Use BeautifulSoup to scrape the data from the Wikipedia page ['List of Spotify streaming records'] (https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records). Script for scraping provided in Code section below. Additionally, I manually added the 'genre' column to the 'Number-one songs.csv' as I thought this would provide interesting insights.
 * Import Data - Load the two csv datasets ('Number-one songs.csv' and 'Most-streamed songs.csv')
 * Data Preperation - I removed the last column of 'Most_streamed' as it only contained references. Check for missing data and duplicates. Merge datasets using an inner join for later analysis.
 * Data Analysis - Used libraries listed under Technologies section to create visualisations and interpretations.
