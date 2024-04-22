@@ -3,6 +3,7 @@
 ##### Description 
 ##### Why Analyse Streams?
 ##### Data
+##### Variables
 ##### Technologies
 ##### How to use the Code
 ##### Insights from Analysis
@@ -18,6 +19,16 @@ Streams play an important role in the music industry. They directly affect artis
 I analysed 2 primary datasets:
 * Most Streamed Songs - this dataset contains information on songs with the highest number of streams on Spotify.
 * Number One Songs - this dataset contains information on songs that spent at least a week at number one on Spotify's charts.
+
+## Variables
+* Song - Title of Song
+* Artist - List of Artist(s)
+* Release Date - Date song was released
+* Issue Date - Official published date
+* Weeks - Weeks as number one song
+* Avs - Average streams per week (millions)
+* Genre - Genre song belongs to
+* Streams(billions) - The amount of streams (billions)
 
 ## Technologies 
 * Python Jupyter Notebook Version 6.4.12
