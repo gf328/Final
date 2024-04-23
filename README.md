@@ -3,6 +3,7 @@
 ##### Description 
 ##### Why Analyse Streams?
 ##### Data
+##### Variables
 ##### Technologies
 ##### How to use the Code
 ##### Insights from Analysis
@@ -19,6 +20,16 @@ I analysed 2 primary datasets:
 * Most Streamed Songs - this dataset contains information on songs with the highest number of streams on Spotify.
 * Number One Songs - this dataset contains information on songs that spent at least a week at number one on Spotify's charts.
 
+## Variables
+* Song - Title of Song
+* Artist - List of Artist(s)
+* Release Date - Date song was released
+* Issue Date - Official published date
+* Weeks - Weeks as number one song
+* Avs - Average streams per week (millions)
+* Genre - Genre song belongs to
+* Streams(billions) - The amount of streams (billions)
+
 ## Technologies 
 * Python Jupyter Notebook Version 6.4.12
 * pandas Version 1.4.4
@@ -31,8 +42,8 @@ I analysed 2 primary datasets:
 * beautifulsoup4 Version 4.11.1
 * urllib3 Version 1.26.11
 
-### How to use the Code
-* Web Scraping - Use BeautifulSoup to scrape the data from the Wikipedia page ['List of Spotify streaming records'] (https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records). Script for scraping provided in Code section below.
+## How to use the Code
+* Web Scraping - Use BeautifulSoup to scrape the data from the Wikipedia page ['List of Spotify streaming records'] (https://en.wikipedia.org/wiki/List_of_Spotify_streaming_records). Script for scraping provided in Code section below. Additionally, I manually added the 'genre' column to the 'Number-one songs.csv' as I thought this would provide interesting insights.
 * Import Data - Load the two csv datasets ('Number-one songs.csv' and 'Most-streamed songs.csv')
 * Data Preperation - I removed the last column of 'Most_streamed' as it only contained references. Check for missing data and duplicates. Merge datasets using an inner join for later analysis.
 * Data Analysis - Used libraries listed under Technologies section to create visualisations and interpretations.
