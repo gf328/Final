@@ -2,6 +2,7 @@
 ## Contents Table
 ##### Description 
 ##### Why Analyse Streams?
+##### Folder Contents
 ##### Data
 ##### Variables
 ##### Technologies
@@ -14,6 +15,12 @@ Spotify has transformed how consumers listen to music over the past twenty years
 
 ## Why Analyse Streams?
 Streams play an important role in the music industry. They directly affect artists' income as Spotify pays them based on the number of streams their songs receive. Moreover, the popularity of songs feeds into a never ending circle - the higher number of streams a song receives, the more visible it is on the platform, leading to more streams.
+
+## Folder Contents
+* Data Folder - contains the 2 datasets and merged dataset
+* Pre-Processing Notebooks folder - contains web-scraping notebook, pre-processing notebook and notebook where I brainstormed plots to use
+* Blog.ipynb - the blog
+* BlogPDF_withcode/BlogPDF_withoutcode - blog in PDF format
 
 ## Data
 I analysed 2 primary datasets:
